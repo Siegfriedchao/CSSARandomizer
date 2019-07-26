@@ -6,10 +6,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="1024" Height="768">
+    Background="#FF46366F" Width="1024" Height="768">
 
-    <Grid Width="1024" Height="768">
-        <Button Content="Button" Background="#FF46366F" Margin="0,594,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Height="86" Width="167" BackgroundSizing="InnerBorderEdge" Click="Button_Click"/>
+    <Grid Width="1024" Height="768" Margin="0,0,0,0">
+        <Button Content="Button" Background="#FF2F234D" Margin="269,621,0,0" VerticalAlignment="Top" Height="86" Width="167" Click="Button_Click"/>
+        <Button Content="Button" Background="#FF2F234D" Margin="551,621,0,0" VerticalAlignment="Top" Height="86" Width="167" Click="Button_Click"/>
+        <Rectangle HorizontalAlignment="Left" Height="13" Margin="122,167,0,0" VerticalAlignment="Top" Width="34" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="13" Margin="122,185,0,0" VerticalAlignment="Top" Width="34" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="13" Margin="122,210,0,0" VerticalAlignment="Top" Width="34" Fill="Black"/>
+        <Rectangle HorizontalAlignment="Left" Height="13" Margin="122,228,0,0" VerticalAlignment="Top" Width="34" Fill="Black"/>
 
     </Grid>
 </Page>

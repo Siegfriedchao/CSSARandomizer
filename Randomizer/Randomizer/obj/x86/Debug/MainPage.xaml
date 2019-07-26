@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Randomizer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Randomizer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FF46366F" Width="1440" Height="768
+    ">
+
+    <Grid Width="1440" Height="768" Margin="10,0,10,0">
+        <Button x:ConnectionId='1' Content="Button" Background="#FF2F234D" Margin="479,628,0,0" VerticalAlignment="Top" Height="86" Width="167"                     />
+        <Button x:ConnectionId='2' Content="Button" Background="#FF2F234D" Margin="761,628,0,0" VerticalAlignment="Top" Height="86" Width="167"                     />
+
+    </Grid>
+</Page>
+
