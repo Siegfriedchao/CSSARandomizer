@@ -1,0 +1,11 @@
+/out:"E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\ilc\intermediate\SgGenerated\\"
+/int:"E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\ilc\intermediate\\"
+/ref:"E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\ilc\intermediate\TransformedSRWR"
+/ref:"E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\ilc\in"
+/ref:"E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\ilc\in\\"
+/ref:"E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\lib\Private\\"
+/ref:"E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\csc"
