@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-26T18:33:08.063</Modified>
+      <Modified>2019-07-26T21:26:19.770</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\Randomizer.exe">
       <PackagePath>entrypoint\Randomizer.exe</PackagePath>
-      <Modified>2019-07-26T18:33:07.853</Modified>
+      <Modified>2019-07-26T21:26:19.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -494,9 +494,21 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T22:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-07-26T18:04:04.934</Modified>
+    <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\Assets\chairLeft.png">
+      <PackagePath>Assets\chairLeft.png</PackagePath>
+      <Modified>2019-07-26T21:01:22.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\Assets\chairLeftHigh.png">
+      <PackagePath>Assets\chairLeftHigh.png</PackagePath>
+      <Modified>2019-07-26T21:01:30.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\Assets\chairRight.png">
+      <PackagePath>Assets\chairRight.png</PackagePath>
+      <Modified>2019-07-26T21:01:44.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\Assets\chairRightHigh.png">
+      <PackagePath>Assets\chairRightHigh.png</PackagePath>
+      <Modified>2019-07-26T21:01:50.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -532,17 +544,21 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-06-14T15:48:27.002</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-07-26T18:04:04.934</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\Randomizer.xr.xml">
       <PackagePath>Randomizer.xr.xml</PackagePath>
-      <Modified>2019-07-26T18:33:07.733</Modified>
+      <Modified>2019-07-26T21:24:07.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-07-26T18:29:48.325</Modified>
+      <Modified>2019-07-26T20:59:28.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-07-26T18:33:07.743</Modified>
+      <Modified>2019-07-26T21:24:07.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -550,11 +566,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-07-26T18:30:06.193</Modified>
+      <Modified>2019-07-26T20:59:29.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\Core\Randomizer.exe">
       <PackagePath>Randomizer.exe</PackagePath>
-      <Modified>2019-07-26T18:33:08.053</Modified>
+      <Modified>2019-07-26T21:26:19.760</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

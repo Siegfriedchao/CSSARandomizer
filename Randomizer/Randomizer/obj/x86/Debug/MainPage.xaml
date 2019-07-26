@@ -6,13 +6,13 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="#FF46366F" Width="1440" Height="768
-    ">
+    Background="#FF46366F" Width="1024" Height="768">
 
-    <Grid Width="1440" Height="768" Margin="10,0,10,0">
-        <Button x:ConnectionId='1' Content="Button" Background="#FF2F234D" Margin="479,628,0,0" VerticalAlignment="Top" Height="86" Width="167"                     />
-        <Button x:ConnectionId='2' Content="Button" Background="#FF2F234D" Margin="761,628,0,0" VerticalAlignment="Top" Height="86" Width="167"                     />
-
+    <Grid x:ConnectionId='1' x:Name="layout" Width="1024" Height="768" Margin="0,0,0,0">
+        <Button x:ConnectionId='2' Content="Reset" Margin="596,643,0,0" VerticalAlignment="Top"                       />
+        <Button x:ConnectionId='3' Content="Stop" Margin="409,638,0,0" VerticalAlignment="Top"                       />
+        <TextBlock x:ConnectionId='4' x:Name="texblk" HorizontalAlignment="Left" Margin="142,488,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"                                              />
+        <Button x:ConnectionId='5' Content="Start" Margin="261,638,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.25"                     />
     </Grid>
 </Page>
 
