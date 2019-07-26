@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-26T21:57:54.662</Modified>
+      <Modified>2019-07-26T23:18:28.234</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\Randomizer.exe">
       <PackagePath>entrypoint\Randomizer.exe</PackagePath>
-      <Modified>2019-07-26T21:57:54.422</Modified>
+      <Modified>2019-07-26T23:18:27.964</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -496,7 +496,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\Assets\chairLeft.png">
       <PackagePath>Assets\chairLeft.png</PackagePath>
-      <Modified>2019-07-26T21:01:22.764</Modified>
+      <Modified>2019-07-26T22:28:43.299</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\Assets\chairLeftHigh.png">
       <PackagePath>Assets\chairLeftHigh.png</PackagePath>
@@ -504,7 +504,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\Assets\chairRight.png">
       <PackagePath>Assets\chairRight.png</PackagePath>
-      <Modified>2019-07-26T21:01:44.184</Modified>
+      <Modified>2019-07-26T20:57:37.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\Assets\chairRightHigh.png">
       <PackagePath>Assets\chairRightHigh.png</PackagePath>
@@ -550,7 +550,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\Randomizer.xr.xml">
       <PackagePath>Randomizer.xr.xml</PackagePath>
-      <Modified>2019-07-26T21:24:07.835</Modified>
+      <Modified>2019-07-26T22:59:21.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -558,7 +558,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-07-26T21:35:18.115</Modified>
+      <Modified>2019-07-26T23:18:27.814</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -570,7 +570,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Debug\Core\Randomizer.exe">
       <PackagePath>Randomizer.exe</PackagePath>
-      <Modified>2019-07-26T21:57:54.652</Modified>
+      <Modified>2019-07-26T23:18:28.224</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
