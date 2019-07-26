@@ -1,0 +1,2 @@
+MainPackage=E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x64\Release\Randomizer_1.0.0.0_x64.appx
+SymbolPackage=E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\Symbols\Randomizer_1.0.0.0_x64.appxsym
