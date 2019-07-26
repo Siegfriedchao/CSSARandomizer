@@ -41,9 +41,9 @@
               "target": "Package",
               "version": "[6.2.8, )"
             },
-            "System.Drawing.Common": {
+            "System.Threading.Thread": {
               "target": "Package",
-              "version": "[4.5.1, )"
+              "version": "[4.3.0, )"
             }
           }
         }
