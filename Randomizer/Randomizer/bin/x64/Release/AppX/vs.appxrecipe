@@ -30,7 +30,7 @@
     <AppXManifest Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-26T23:22:32.457</Modified>
+      <Modified>2019-07-27T16:51:29.010</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -90,19 +90,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x64\Release\ilc\Randomizer.dll">
       <PackagePath>Randomizer.dll</PackagePath>
-      <Modified>2019-07-26T23:22:32.363</Modified>
+      <Modified>2019-07-27T16:51:28.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x64\Release\ilc\Randomizer.exe">
       <PackagePath>Randomizer.exe</PackagePath>
-      <Modified>2019-07-26T23:22:32.445</Modified>
+      <Modified>2019-07-27T16:51:28.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x64\Release\ilc\Randomizer.pdb">
       <PackagePath>Randomizer.pdb</PackagePath>
-      <Modified>2019-07-26T23:22:32.442</Modified>
+      <Modified>2019-07-27T16:51:28.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-07-26T23:22:14.404</Modified>
+      <Modified>2019-07-27T16:31:36.844</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

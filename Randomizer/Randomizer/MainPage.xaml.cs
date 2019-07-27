@@ -227,11 +227,70 @@ namespace Randomizer
             global_startFlag = false;
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e) // stop and pick
+        private async void Button_Click_2(object sender, RoutedEventArgs e) // stop and pick
         {
             global_sweepFlag = false;
 
-            int column, row;
+
+            SolidColorBrush grayBrush = new SolidColorBrush(Windows.UI.Colors.Gray);
+
+            string chairLeft = "ms-appx:///Assets/chairLeft.png";
+            Uri uriLeft = new Uri(chairLeft, UriKind.RelativeOrAbsolute);
+            ImageBrush chairLeftBrush = new ImageBrush { ImageSource = new BitmapImage(uriLeft) };
+
+            string chairRight = "ms-appx:///Assets/chairRight.png";
+            Uri uriRight = new Uri(chairRight, UriKind.RelativeOrAbsolute);
+            ImageBrush chairRightBrush = new ImageBrush { ImageSource = new BitmapImage(uriRight) };
+
+            ImageBrush chairBrush;
+
+            chairBrush = chairRightBrush;
+
+            int column = 0;
+
+            int columnShow, row;
+            int time;
+
+            column = global_RandomNumber / 12;
+            if (column % 2 == 0)
+            {
+                listRec[global_RandomNumber].Fill = chairLeftBrush;
+            }
+            else
+            {
+                listRec[global_RandomNumber].Fill = chairRightBrush;
+            }
+
+            //playing a random trick here
+            for (var j = 0; j < 8; j++)
+            {
+                await Task.Run(() => Random_Trick());
+
+                texblk.Text = global_RandomNumber.ToString();
+                columnShow = (global_RandomNumber / 12) + 1;
+                row = (global_RandomNumber % 12) + 1;
+                texCol.Text = columnShow.ToString();
+                texRow.Text = row.ToString();
+
+                listRec[global_RandomNumber].Fill = grayBrush;
+
+                time = 200 * j;
+
+                await Task.Delay(TimeSpan.FromMilliseconds(time));
+
+                column = global_RandomNumber / 12;
+                if (column % 2 == 0)
+                {
+                    listRec[global_RandomNumber].Fill = chairLeftBrush;
+                }
+                else
+                {
+                    listRec[global_RandomNumber].Fill = chairRightBrush;
+                }
+            }
+
+
+            int columnCount, rowCount;
 
             if (global_startFlag)
             {
@@ -246,11 +305,11 @@ namespace Randomizer
                 
                 listRec[number].Fill = yellowBrush;
 
-                column = (number / 12) + 1;
-                row = (number % 12) + 1;
+                columnCount = (number / 12) + 1;
+                rowCount = (number % 12) + 1;
                 texblk.Text = number.ToString();
-                texCol.Text = column.ToString();
-                texRow.Text = row.ToString();
+                texCol.Text = columnCount.ToString();
+                texRow.Text = rowCount.ToString();
             }
 
             global_startFlag = false;

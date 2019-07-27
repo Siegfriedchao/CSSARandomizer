@@ -6,26 +6,26 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="#FF46366F" Width="1440" Height="960">
+    Background="#FF46366F" d:DesignWidth="1440" d:DesignHeight="960">
 
 
 
-    <Grid x:Name="layout" Margin="208,96,0,0">
+    <Grid x:Name="layout" Margin="190,96,0,0" HorizontalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="299*"/>
             <RowDefinition Height="133*"/>
         </Grid.RowDefinitions>
-        <Button Content="Reset" Margin="612,136,0,0" VerticalAlignment="Top" Click="Button_Click_1" FontSize="30" Grid.Row="1"/>
-        <Button Content="Stop" Margin="466,136,0,0" VerticalAlignment="Top" Click="Button_Click_2" FontSize="30" Grid.Row="1"/>
-        <TextBlock x:Name="texblk" HorizontalAlignment="Left" Margin="333,58,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="30" Grid.Row="1"/>
-        <Button Content="Start" Margin="313,136,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.25" Click="Button_Click" FontSize="30" Grid.Row="1"/>
-        <TextBlock x:Name="texCol" HorizontalAlignment="Left" Margin="556,45,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1"/>
-        <TextBlock x:Name="texRow" HorizontalAlignment="Left" Margin="754,45,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="189,58,0,0" Text="Table No." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="440,58,0,0" Text="Column" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="678,58,0,0" Text="Row" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.366,0.5" Grid.Row="1"/>
+        <Button Content="Reset" Margin="612,136,0,0" VerticalAlignment="Top" Click="Button_Click_1" FontSize="30" Grid.Row="1" Foreground="White"/>
+        <Button Content="Stop" Margin="466,136,0,0" VerticalAlignment="Top" Click="Button_Click_2" FontSize="30" Grid.Row="1" Foreground="White"/>
+        <TextBlock x:Name="texblk" HorizontalAlignment="Left" Margin="333,58,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="30" Grid.Row="1" Foreground="White"/>
+        <Button Content="Start" Margin="313,136,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.25" Click="Button_Click" FontSize="30" Grid.Row="1" Foreground="White"/>
+        <TextBlock x:Name="texCol" HorizontalAlignment="Left" Margin="556,45,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White"/>
+        <TextBlock x:Name="texRow" HorizontalAlignment="Left" Margin="754,45,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="189,58,0,0" Text="Table No." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="440,58,0,0" Text="Column" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="678,58,0,0" Text="Row" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.366,0.5" Grid.Row="1" Foreground="White"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="923,210,0,0" Text="Copyright 2019 Youchao Wang, Cambridge" TextWrapping="Wrap" VerticalAlignment="Top" Width="271" SelectionChanged="TextBlock_SelectionChanged_1" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="923,210,0,0" Text="Copyright 2019 Youchao Wang, Cambridge" TextWrapping="Wrap" VerticalAlignment="Top" Width="271" SelectionChanged="TextBlock_SelectionChanged_1" Grid.Row="1" Foreground="White"/>
         <Grid Grid.RowSpan="2"/>
         <Rectangle HorizontalAlignment="Left" Height="418" Margin="-166,108,0,0" VerticalAlignment="Top" Width="100" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="418" Margin="1072,108,0,0" VerticalAlignment="Top" Width="100" Fill="#FF151023"/>
@@ -37,11 +37,11 @@
         <Rectangle HorizontalAlignment="Left" Height="620" Margin="465,-20,0,0" VerticalAlignment="Top" Width="56" Fill="#FF151023" Grid.RowSpan="2"/>
         <Rectangle HorizontalAlignment="Left" Height="620" Margin="645,-20,0,0" VerticalAlignment="Top" Width="56" Fill="#FF151023" Grid.RowSpan="2"/>
         <Rectangle HorizontalAlignment="Left" Height="620" Margin="825,-20,0,0" VerticalAlignment="Top" Width="56" Fill="#FF151023" Grid.RowSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="-51,578,0,0" Text="Door" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.RowSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="-51,-32,0,0" Text="Stage" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock HorizontalAlignment="Left" Margin="986,578,0,0" Text="Door" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.RowSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="979,-32,0,0" Text="Stage" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30"/>
-        <TextBlock HorizontalAlignment="Left" Margin="-166,210,0,0" Text="Cambridge · Harvard · Stanford · Oxford Joint Formal Dinner" TextWrapping="Wrap" VerticalAlignment="Top" Width="388" SelectionChanged="TextBlock_SelectionChanged_1" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="-51,578,0,0" Text="Door" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.RowSpan="2" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="-51,-32,0,0" Text="Stage" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="986,578,0,0" Text="Door" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.RowSpan="2" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="979,-32,0,0" Text="Stage" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="-166,210,0,0" Text="Cambridge · Harvard · Stanford · Oxford Joint Formal Dinner" TextWrapping="Wrap" VerticalAlignment="Top" Width="388" SelectionChanged="TextBlock_SelectionChanged_1" Grid.Row="1" Foreground="White"/>
     </Grid>
 
 </Page>
