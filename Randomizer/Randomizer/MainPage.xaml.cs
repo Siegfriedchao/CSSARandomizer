@@ -251,33 +251,8 @@ namespace Randomizer
             int columnShow, row;
             int time;
 
-            column = global_RandomNumber / 12;
-            if (column % 2 == 0)
+            if (global_startFlag)
             {
-                listRec[global_RandomNumber].Fill = chairLeftBrush;
-            }
-            else
-            {
-                listRec[global_RandomNumber].Fill = chairRightBrush;
-            }
-
-            //playing a random trick here
-            for (var j = 0; j < 8; j++)
-            {
-                await Task.Run(() => Random_Trick());
-
-                texblk.Text = global_RandomNumber.ToString();
-                columnShow = (global_RandomNumber / 12) + 1;
-                row = (global_RandomNumber % 12) + 1;
-                texCol.Text = columnShow.ToString();
-                texRow.Text = row.ToString();
-
-                listRec[global_RandomNumber].Fill = grayBrush;
-
-                time = 150 * j;
-
-                await Task.Delay(TimeSpan.FromMilliseconds(time));
-
                 column = global_RandomNumber / 12;
                 if (column % 2 == 0)
                 {
@@ -287,8 +262,36 @@ namespace Randomizer
                 {
                     listRec[global_RandomNumber].Fill = chairRightBrush;
                 }
-            }
 
+                //playing a random trick here
+                for (var j = 0; j < 8; j++)
+                {
+                    await Task.Run(() => Random_Trick());
+
+                    texblk.Text = global_RandomNumber.ToString();
+                    columnShow = (global_RandomNumber / 12) + 1;
+                    row = (global_RandomNumber % 12) + 1;
+                    texCol.Text = columnShow.ToString();
+                    texRow.Text = row.ToString();
+
+                    listRec[global_RandomNumber].Fill = grayBrush;
+
+                    time = 150 * j;
+
+                    await Task.Delay(TimeSpan.FromMilliseconds(time));
+
+                    column = global_RandomNumber / 12;
+                    if (column % 2 == 0)
+                    {
+                        listRec[global_RandomNumber].Fill = chairLeftBrush;
+                    }
+                    else
+                    {
+                        listRec[global_RandomNumber].Fill = chairRightBrush;
+                    }
+                }
+
+            }
 
             int columnCount, rowCount;
 
