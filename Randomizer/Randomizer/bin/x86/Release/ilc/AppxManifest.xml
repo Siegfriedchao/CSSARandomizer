@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="a760cd89-3e0c-40d6-9704-52c32e04ee42" Publisher="CN=Siegfriedchao" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="a760cd89-3e0c-40d6-9704-52c32e04ee42" Publisher="CN=Siegfriedchao" Version="1.0.1.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="a760cd89-3e0c-40d6-9704-52c32e04ee42" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Randomizer</DisplayName>

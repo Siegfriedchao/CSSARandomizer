@@ -1,2 +1,2 @@
-MainPackage=E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\ARM\Release\Randomizer_1.0.0.0_ARM.appx
-SymbolPackage=E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\ARM\Release\Symbols\Randomizer_1.0.0.0_ARM.appxsym
+MainPackage=E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\ARM\Release\Randomizer_1.0.1.0_ARM.appx
+SymbolPackage=E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\ARM\Release\Symbols\Randomizer_1.0.1.0_ARM.appxsym

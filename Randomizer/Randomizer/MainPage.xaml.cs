@@ -274,7 +274,7 @@ namespace Randomizer
 
                 listRec[global_RandomNumber].Fill = grayBrush;
 
-                time = 200 * j;
+                time = 150 * j;
 
                 await Task.Delay(TimeSpan.FromMilliseconds(time));
 
