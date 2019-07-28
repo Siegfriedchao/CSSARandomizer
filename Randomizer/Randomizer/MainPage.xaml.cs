@@ -49,6 +49,8 @@ namespace Randomizer
             ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
             ApplicationView.GetForCurrentView().SetPreferredMinSize(new Size(1440, 960));
 
+            ApplicationView.GetForCurrentView().Title = "剑桥中国学联开奖系统";
+
             var titleBar = ApplicationView.GetForCurrentView().TitleBar;
 
             // Set active window colors
