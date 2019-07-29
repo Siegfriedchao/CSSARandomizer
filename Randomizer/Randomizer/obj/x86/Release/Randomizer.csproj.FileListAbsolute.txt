@@ -431,3 +431,5 @@ E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x86\Release\ilc\intermediate\
 E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll.ILTransformTask.repro
 E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.pdb
 E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x86\Release\Randomizer.csprojAssemblyReference.cache
+E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x86\Release\ilc\Assets\Logo.png
+E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x86\Release\ilc\in\Assets\Logo.png

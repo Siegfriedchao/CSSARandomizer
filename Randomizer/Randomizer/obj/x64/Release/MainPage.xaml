@@ -43,7 +43,6 @@
         <TextBlock HorizontalAlignment="Left" Margin="979,-32,0,0" Text="Stage" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Foreground="White"/>
         <TextBlock x:ConnectionId='9' HorizontalAlignment="Left" Margin="-166,210,0,0" Text="Cambridge · Harvard · Stanford · Oxford Joint Formal Dinner" TextWrapping="Wrap" VerticalAlignment="Top" Width="388"                                                 Grid.Row="1" Foreground="White"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="1122,119,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Source="/Assets/Logo.png"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="-166,119,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Source="/Assets/Logo.png"/>
     </Grid>
 
 </Page>
