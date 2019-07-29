@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\ARM\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\ARM\Release\ilc\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\ARM\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
