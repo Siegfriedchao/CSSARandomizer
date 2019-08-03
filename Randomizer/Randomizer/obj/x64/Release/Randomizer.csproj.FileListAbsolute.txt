@@ -433,3 +433,5 @@ E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\ilc\intermediate\
 E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\Randomizer.csprojAssemblyReference.cache
 E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x64\Release\ilc\Assets\Logo.png
 E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\ilc\in\Assets\Logo.png
+E:\GitHub\CSSARandomizer\Randomizer\Randomizer\bin\x64\Release\ilc\Assets\LeftLogo.png
+E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\ilc\in\Assets\LeftLogo.png

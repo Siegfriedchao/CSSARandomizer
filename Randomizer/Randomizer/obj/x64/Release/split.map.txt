@@ -15,6 +15,7 @@
 "E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\PackageLayout\Assets\SplashScreen.scale-200.png"			"Assets\SplashScreen.scale-200.png"
 "E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\PackageLayout\Assets\Logo.png"			"Assets\Logo.png"
 "E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\PackageLayout\Assets\LockScreenLogo.scale-200.png"			"Assets\LockScreenLogo.scale-200.png"
+"E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\PackageLayout\Assets\LeftLogo.png"			"Assets\LeftLogo.png"
 "E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\PackageLayout\Assets\chairRightHigh.png"			"Assets\chairRightHigh.png"
 "E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\PackageLayout\Assets\chairRight.png"			"Assets\chairRight.png"
 "E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Release\PackageLayout\Assets\chairLeftHigh.png"			"Assets\chairLeftHigh.png"

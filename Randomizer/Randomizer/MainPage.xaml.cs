@@ -38,6 +38,7 @@ namespace Randomizer
 
         Boolean global_startFlag = false;
         Boolean global_sweepFlag = false;
+        Boolean global_cleanFlag = false;
 
         int global_RandomNumber = 0;
 
@@ -91,7 +92,8 @@ namespace Randomizer
             for (var i = 0; i < 120; i++)
             {
                 // five big columns with 12x2 per each column
-                if (rowCounter == 11)
+                // changing to six big columns with 10x2
+                if (rowCounter == 9) // originally 11
                 {
                     y = 0;
 
@@ -99,12 +101,12 @@ namespace Randomizer
 
                     if (columnCounter % 2 == 0)
                     {
-                        x += 100;
+                        x += 85; // originally 100
                         chairBrush = chairLeftBrush;
                     }
                     else
                     {
-                        x += 80;
+                        x += 60; //originally 80
                         chairBrush = chairRightBrush;
                     }
 
@@ -118,7 +120,14 @@ namespace Randomizer
                     }
                     else
                     {
-                        y += 50;
+                        if (rowCounter % 2 == 0)
+                        {
+                            y += 50;
+                        }
+                        else
+                        {
+                            y += 75;
+                        }
                         rowCounter++;
                     }
 
@@ -168,6 +177,7 @@ namespace Randomizer
         private void Button_Click_1(object sender, RoutedEventArgs e) // reset
         {
             global_sweepFlag = false;
+            global_cleanFlag = true;
 
             texblk.Text = "N/A";
             texCol.Text = "N/A";
@@ -193,8 +203,9 @@ namespace Randomizer
              */
             for (var i = 0; i < 120; i++)
             {
-                // five big columns with 12x2 per each column
-                if (rowCounter == 11)
+                // orginally five big columns with 12x2 per each column
+                // now six columns with 10x2
+                if (rowCounter == 9) // originally 11
                 {
                     columnCounter++;
 
@@ -223,8 +234,8 @@ namespace Randomizer
 
                 listRec[i].Fill = chairBrush;
             }
-                //layout.Background = chairBrush;
-                listExclude.Clear();
+            //layout.Background = chairBrush;
+            listExclude.Clear();
 
             global_startFlag = false;
         }
@@ -232,6 +243,7 @@ namespace Randomizer
         private async void Button_Click_2(object sender, RoutedEventArgs e) // stop and pick
         {
             global_sweepFlag = false;
+            global_cleanFlag = true;
 
 
             SolidColorBrush grayBrush = new SolidColorBrush(Windows.UI.Colors.Gray);
@@ -253,9 +265,9 @@ namespace Randomizer
             int columnShow, row;
             int time;
 
-            if (global_startFlag)
+            if (global_startFlag && global_cleanFlag)
             {
-                column = global_RandomNumber / 12;
+                column = global_RandomNumber / 10; // originally 12
                 if (column % 2 == 0)
                 {
                     listRec[global_RandomNumber].Fill = chairLeftBrush;
@@ -271,8 +283,8 @@ namespace Randomizer
                     await Task.Run(() => Random_Trick());
 
                     texblk.Text = global_RandomNumber.ToString();
-                    columnShow = (global_RandomNumber / 12) + 1;
-                    row = (global_RandomNumber % 12) + 1;
+                    columnShow = (global_RandomNumber / 10) + 1; // originally 12
+                    row = (global_RandomNumber % 10) + 1; // originally 12
                     texCol.Text = columnShow.ToString();
                     texRow.Text = row.ToString();
 
@@ -282,7 +294,7 @@ namespace Randomizer
 
                     await Task.Delay(TimeSpan.FromMilliseconds(time));
 
-                    column = global_RandomNumber / 12;
+                    column = global_RandomNumber / 10; // originally 12
                     if (column % 2 == 0)
                     {
                         listRec[global_RandomNumber].Fill = chairLeftBrush;
@@ -297,7 +309,7 @@ namespace Randomizer
 
             int columnCount, rowCount;
 
-            if (global_startFlag)
+            if (global_startFlag && global_cleanFlag)
             {
                 SolidColorBrush yellowBrush = new SolidColorBrush(Windows.UI.Colors.Yellow);
 
@@ -307,11 +319,11 @@ namespace Randomizer
                 {
                     number = Generate_Random(120, listExclude);
                 } while (number == global_RandomNumber);
-                
+
                 listRec[number].Fill = yellowBrush;
 
-                columnCount = (number / 12) + 1;
-                rowCount = (number % 12) + 1;
+                columnCount = (number / 10) + 1; // originally 12
+                rowCount = (number % 10) + 1; // originally 12
                 texblk.Text = number.ToString();
                 texCol.Text = columnCount.ToString();
                 texRow.Text = rowCount.ToString();
@@ -329,6 +341,7 @@ namespace Randomizer
         {
             global_startFlag = true;
             global_sweepFlag = true;
+            global_cleanFlag = false;
 
 
             SolidColorBrush grayBrush = new SolidColorBrush(Windows.UI.Colors.Gray);
@@ -357,8 +370,9 @@ namespace Randomizer
              */
             for (var i = 0; i < 120; i++)
             {
-                // five big columns with 12x2 per each column
-                if (rowCounter == 11)
+                // originally five big columns with 12x2 per each column
+                // now six big columns with 10x2
+                if (rowCounter == 9)
                 {
                     columnCounter++;
 
@@ -389,14 +403,14 @@ namespace Randomizer
             }
 
 
-                //playing a random trick here
+            //playing a random trick here
             while (global_sweepFlag)
             {
                 await Task.Run(() => Random_Trick());
 
                 texblk.Text = global_RandomNumber.ToString();
-                columnShow = (global_RandomNumber / 12) + 1;
-                row = (global_RandomNumber % 12) + 1;
+                columnShow = (global_RandomNumber / 10) + 1; //originally 12
+                row = (global_RandomNumber % 10) + 1; // originally 12
                 texCol.Text = columnShow.ToString();
                 texRow.Text = row.ToString();
 
@@ -404,7 +418,7 @@ namespace Randomizer
 
                 await Task.Delay(TimeSpan.FromMilliseconds(100));
 
-                column = global_RandomNumber / 12;
+                column = global_RandomNumber / 10; // originally 12
                 if (column % 2 == 0)
                 {
                     listRec[global_RandomNumber].Fill = chairLeftBrush;
@@ -423,7 +437,7 @@ namespace Randomizer
 
             global_RandomNumber = random.Next(0, 120);
 
-            
+
         }
 
         private void TextBlock_SelectionChanged_1(object sender, RoutedEventArgs e)

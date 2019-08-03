@@ -21,7 +21,7 @@
         <Button x:ConnectionId='5' Content="Start" Margin="297,136,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.25"                      FontSize="30" Grid.Row="1" Foreground="White"/>
         <TextBlock x:ConnectionId='6' x:Name="texCol" HorizontalAlignment="Left" Margin="556,45,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White"/>
         <TextBlock x:ConnectionId='7' x:Name="texRow" HorizontalAlignment="Left" Margin="754,45,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="189,58,0,0" Text="Table No." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="189,58,0,0" Text="Seat No." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White"/>
         <TextBlock HorizontalAlignment="Left" Margin="440,58,0,0" Text="Column" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White"/>
         <TextBlock HorizontalAlignment="Left" Margin="678,58,0,0" Text="Row" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.366,0.5" Grid.Row="1" Foreground="White"/>
 
@@ -32,18 +32,20 @@
         <Rectangle HorizontalAlignment="Left" Height="492" Margin="-116,72,0,0" VerticalAlignment="Top" Width="100" Fill="#FF281F40"/>
         <Rectangle HorizontalAlignment="Left" Height="492" Margin="1022,72,0,0" VerticalAlignment="Top" Width="100" Fill="#FF281F40"/>
         <Rectangle HorizontalAlignment="Left" Height="674" Margin="-66,-42,0,0" VerticalAlignment="Top" Width="1133" Fill="#FF735BB4" Grid.RowSpan="2"/>
-        <Rectangle HorizontalAlignment="Left" Height="620" Margin="105,-20,0,0" VerticalAlignment="Top" Width="56" Fill="#FF151023" Grid.RowSpan="2"/>
-        <Rectangle HorizontalAlignment="Left" Height="620" Margin="285,-20,0,0" VerticalAlignment="Top" Width="56" Fill="#FF151023" Grid.RowSpan="2"/>
-        <Rectangle HorizontalAlignment="Left" Height="620" Margin="465,-20,0,0" VerticalAlignment="Top" Width="56" Fill="#FF151023" Grid.RowSpan="2"/>
-        <Rectangle HorizontalAlignment="Left" Height="620" Margin="645,-20,0,0" VerticalAlignment="Top" Width="56" Fill="#FF151023" Grid.RowSpan="2"/>
-        <Rectangle HorizontalAlignment="Left" Height="620" Margin="825,-20,0,0" VerticalAlignment="Top" Width="56" Fill="#FF151023" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="620" Margin="105,-20,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="620" Margin="250,-20,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="620" Margin="395,-20,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="620" Margin="540,-20,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="620" Margin="685,-20,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023" Grid.RowSpan="2"/>
+        <Rectangle HorizontalAlignment="Left" Height="620" Margin="830,-20,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023" Grid.RowSpan="2"/>
         <TextBlock HorizontalAlignment="Left" Margin="-51,578,0,0" Text="Door" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.RowSpan="2" Foreground="White"/>
         <TextBlock HorizontalAlignment="Left" Margin="-51,-32,0,0" Text="Stage" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Foreground="White"/>
         <TextBlock HorizontalAlignment="Left" Margin="986,578,0,0" Text="Door" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.RowSpan="2" Foreground="White"/>
         <TextBlock HorizontalAlignment="Left" Margin="979,-32,0,0" Text="Stage" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Foreground="White"/>
         <TextBlock x:ConnectionId='9' HorizontalAlignment="Left" Margin="-166,210,0,0" Text="Cambridge · Harvard · Stanford · Oxford Joint Formal Dinner" TextWrapping="Wrap" VerticalAlignment="Top" Width="388"                                                 Grid.Row="1" Foreground="White"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="1122,119,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Source="/Assets/Logo.png"/>
-    </Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="-166,111,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Source="/Assets/LeftLogo.png"/>
 
+    </Grid>
 </Page>
 
