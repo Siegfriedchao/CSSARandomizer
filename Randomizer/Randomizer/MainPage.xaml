@@ -17,16 +17,19 @@
         </Grid.RowDefinitions>
         <Button Content="Reset" Margin="614,136,0,0" VerticalAlignment="Top" Click="Button_Click_1" FontSize="30" Grid.Row="1" Foreground="White"/>
         <Button Content="Stop" Margin="460,136,0,0" VerticalAlignment="Top" Click="Button_Click_2" FontSize="30" Grid.Row="1" Foreground="White"/>
-        <TextBlock x:Name="texblk" HorizontalAlignment="Left" Margin="333,58,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="30" Grid.Row="1" Foreground="White"/>
+        <TextBlock x:Name="texblk" HorizontalAlignment="Left" Margin="505,58,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="30" Grid.Row="1" Foreground="White"/>
         <Button Content="Start" Margin="297,136,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.25" Click="Button_Click" FontSize="30" Grid.Row="1" Foreground="White"/>
-        <TextBlock x:Name="texCol" HorizontalAlignment="Left" Margin="556,45,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White"/>
-        <TextBlock x:Name="texRow" HorizontalAlignment="Left" Margin="754,45,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="189,58,0,0" Text="Seat No." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="440,58,0,0" Text="Column" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="678,58,0,0" Text="Row" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.366,0.5" Grid.Row="1" Foreground="White"/>
+        <TextBlock x:Name="texCol" HorizontalAlignment="Left" Margin="728,45,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White"/>
+        <TextBlock x:Name="texRow" HorizontalAlignment="Left" Margin="926,45,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="361,58,0,0" Text="Seat No." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="612,58,0,0" Text="Column" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="850,58,0,0" Text="Row" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.366,0.5" Grid.Row="1" Foreground="White"/>
 
         <TextBlock HorizontalAlignment="Left" Margin="923,210,0,0" Text="Copyright 2019 Youchao Wang, Cambridge" TextWrapping="Wrap" VerticalAlignment="Top" Width="271" SelectionChanged="TextBlock_SelectionChanged_1" Grid.Row="1" Foreground="White"/>
-        <Grid Grid.RowSpan="2"/>
+        <Grid Grid.RowSpan="2">
+            <TextBlock HorizontalAlignment="Left" Margin="10,656,0,0" Text="Item" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Foreground="White"/>
+            <CheckBox x:Name="checkbox1" Content="Final" Margin="108,660,0,0" VerticalAlignment="Top"/>
+        </Grid>
         <Rectangle HorizontalAlignment="Left" Height="418" Margin="-166,108,0,0" VerticalAlignment="Top" Width="100" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="418" Margin="1072,108,0,0" VerticalAlignment="Top" Width="100" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="492" Margin="-116,72,0,0" VerticalAlignment="Top" Width="100" Fill="#FF281F40"/>

@@ -39,6 +39,7 @@ namespace Randomizer
         Boolean global_startFlag = false;
         Boolean global_sweepFlag = false;
         Boolean global_cleanFlag = false;
+        Boolean global_finalGiftFlag = false;
 
         int global_RandomNumber = 0;
 
@@ -262,6 +263,8 @@ namespace Randomizer
 
             int column = 0;
 
+            int chairCount;
+
             int columnShow, row;
             int time;
 
@@ -309,6 +312,27 @@ namespace Randomizer
 
             int columnCount, rowCount;
 
+            //checkbox1.
+            if (global_finalGiftFlag)
+            {
+                listExclude.Add(42);
+                listExclude.Add(43);
+                listExclude.Add(44);
+                listExclude.Add(45);
+                listExclude.Add(46);
+                listExclude.Add(47);
+                listExclude.Add(48);
+                listExclude.Add(49);
+                listExclude.Add(50);
+                listExclude.Add(51);
+                listExclude.Add(52);
+                listExclude.Add(53);
+                
+                listExclude.Add(68);
+                listExclude.Add(84);
+                listExclude.Add(90);
+            }
+
             if (global_startFlag && global_cleanFlag)
             {
                 SolidColorBrush yellowBrush = new SolidColorBrush(Windows.UI.Colors.Yellow);
@@ -324,6 +348,9 @@ namespace Randomizer
 
                 columnCount = (number / 10) + 1; // originally 12
                 rowCount = (number % 10) + 1; // originally 12
+
+                chairCount = number + 1;
+
                 texblk.Text = number.ToString();
                 texCol.Text = columnCount.ToString();
                 texRow.Text = rowCount.ToString();
