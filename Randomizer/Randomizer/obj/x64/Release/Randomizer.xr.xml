@@ -56,11 +56,6 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Source" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-    </RootType>
     <RootType FullName="Randomizer.MainPage" />
   </Roots.RootTypes>
 </Roots>
