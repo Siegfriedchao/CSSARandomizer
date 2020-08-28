@@ -27,36 +27,41 @@
         <TextBlock HorizontalAlignment="Left" Margin="979,-32,0,0" Text="Stage" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Foreground="White" Height="40" Width="74"/>
         <Button x:ConnectionId='2' Content="Reset" Margin="619,100,0,0" VerticalAlignment="Top"                        FontSize="30" Grid.Row="1" Foreground="White" Height="53" Width="92"/>
         <Button x:ConnectionId='3' Content="Stop" Margin="465,100,0,0" VerticalAlignment="Top"                        FontSize="30" Grid.Row="1" Foreground="White" Height="53" Width="81"/>
-        <TextBlock x:ConnectionId='4' x:Name="texblk" HorizontalAlignment="Left" Margin="338,37,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top"                                               FontSize="30" Grid.Row="1" Foreground="White" Height="40" Width="53"/>
+        <TextBlock x:ConnectionId='4' x:Name="texblk" HorizontalAlignment="Left" Margin="338,37,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top"                                               FontSize="30" Grid.Row="1" Foreground="White" Height="40" Width="64"/>
         <Button x:ConnectionId='5' Content="Start" Margin="302,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.25"                      FontSize="30" Grid.Row="1" Foreground="White" Height="53" Width="81"/>
-        <TextBlock x:ConnectionId='6' x:Name="texCol" HorizontalAlignment="Left" Margin="561,24,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White" Height="53" Width="71"/>
-        <TextBlock x:ConnectionId='7' x:Name="texRow" HorizontalAlignment="Left" Margin="759,24,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White" Height="53" Width="71"/>
+        <TextBlock x:ConnectionId='6' x:Name="texCol" HorizontalAlignment="Left" Margin="561,24,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White" Height="53" Width="83"/>
+        <TextBlock x:ConnectionId='7' x:Name="texRow" HorizontalAlignment="Left" Margin="759,24,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White" Height="53" Width="88"/>
         <TextBlock HorizontalAlignment="Left" Margin="194,37,0,0" Text="Seat No." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White" Height="40" Width="112"/>
         <TextBlock HorizontalAlignment="Left" Margin="445,37,0,0" Text="Column" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White" Height="40" Width="103"/>
-        <TextBlock HorizontalAlignment="Left" Margin="683,37,0,0" Text="Row" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.366,0.5" Grid.Row="1" Foreground="White" Height="40" Width="56"/>
+        <TextBlock HorizontalAlignment="Left" Margin="683,37,0,0" Text="Row" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.366,0.5" Grid.Row="1" Foreground="White" Height="40" Width="67"/>
         <TextBlock x:ConnectionId='8' HorizontalAlignment="Left" Margin="904,144,0,0" Text="Copyright 2019-2020 Youchao Wang, Cambridge" TextWrapping="Wrap" VerticalAlignment="Top" Width="309"                                                 Grid.Row="1" Foreground="White" Height="19"/>
         <Grid Grid.RowSpan="2" Margin="72,0,0,0"/>
         <TextBlock x:ConnectionId='9' HorizontalAlignment="Left" Margin="-166,144,0,0" Text="Cambridge · Harvard · Stanford · Oxford Joint Formal Dinner" TextWrapping="Wrap" VerticalAlignment="Top" Width="388"                                                 Grid.Row="1" Foreground="White" Height="19"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="1122,53,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100" Source="e6468421-70e3-40b3-8eb7-7100b7bbe5c4"/>
         <Rectangle HorizontalAlignment="Left" Height="88" Margin="832,90,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="84" Margin="832,183,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
-        <Rectangle HorizontalAlignment="Left" Height="395" Margin="832,272,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
+        <Rectangle HorizontalAlignment="Left" Height="198" Margin="832,272,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="97" Margin="653,-12,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="88" Margin="653,90,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="84" Margin="653,183,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
-        <Rectangle HorizontalAlignment="Left" Height="395" Margin="653,272,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
+        <Rectangle HorizontalAlignment="Left" Height="198" Margin="653,272,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="97" Margin="473,-12,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="88" Margin="473,90,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="84" Margin="473,183,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
-        <Rectangle HorizontalAlignment="Left" Height="395" Margin="473,272,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
+        <Rectangle HorizontalAlignment="Left" Height="198" Margin="473,272,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="97" Margin="295,-12,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="88" Margin="295,90,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="84" Margin="295,183,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
-        <Rectangle HorizontalAlignment="Left" Height="395" Margin="295,272,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
+        <Rectangle HorizontalAlignment="Left" Height="198" Margin="295,272,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="97" Margin="114,-12,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="88" Margin="114,90,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
         <Rectangle HorizontalAlignment="Left" Height="84" Margin="114,183,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
-        <Rectangle HorizontalAlignment="Left" Height="395" Margin="114,272,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
+        <Rectangle HorizontalAlignment="Left" Height="198" Margin="114,272,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
+        <Rectangle HorizontalAlignment="Left" Height="198" Margin="114,475,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
+        <Rectangle HorizontalAlignment="Left" Height="198" Margin="295,475,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
+        <Rectangle HorizontalAlignment="Left" Height="198" Margin="473,475,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
+        <Rectangle HorizontalAlignment="Left" Height="198" Margin="653,475,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
+        <Rectangle HorizontalAlignment="Left" Height="198" Margin="832,475,0,0" VerticalAlignment="Top" Width="43" Fill="#FF151023"/>
 
     </Grid>
 </Page>

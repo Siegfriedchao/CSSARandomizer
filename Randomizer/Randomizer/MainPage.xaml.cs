@@ -123,7 +123,11 @@ namespace Randomizer
                     }
                     else
                     {
-                        if (rowCounter < 10)
+                        if (rowCounter == 8 || rowCounter == 14)
+                        {
+                            y += 45;
+                        }
+                        else if (rowCounter < 10)
                         {
                             if ((rowCounter + 1) % 3 != 0)
                             {
@@ -334,22 +338,22 @@ namespace Randomizer
             //checkbox1.
             if (global_finalGiftFlag)
             {
-                listExclude.Add(42);
-                listExclude.Add(43);
-                listExclude.Add(44);
-                listExclude.Add(45);
-                listExclude.Add(46);
-                listExclude.Add(47);
-                listExclude.Add(48);
-                listExclude.Add(49);
-                listExclude.Add(50);
-                listExclude.Add(51);
-                listExclude.Add(52);
-                listExclude.Add(53);
+                //listExclude.Add(42);
+                //listExclude.Add(43);
+                //listExclude.Add(44);
+                //listExclude.Add(45);
+                //listExclude.Add(46);
+                //listExclude.Add(47);
+                //listExclude.Add(48);
+                //listExclude.Add(49);
+                //listExclude.Add(50);
+                //listExclude.Add(51);
+                //listExclude.Add(52);
+                //listExclude.Add(53);
                 
-                listExclude.Add(68);
-                listExclude.Add(84);
-                listExclude.Add(90);
+                //listExclude.Add(68);
+                //listExclude.Add(84);
+                //listExclude.Add(90);
             }
 
             if (global_startFlag && global_cleanFlag)
@@ -481,8 +485,7 @@ namespace Randomizer
         {
             Random random = new Random();
 
-            global_RandomNumber = random.Next(0, 120);
-
+            global_RandomNumber = random.Next(0, 210);
 
         }
 
