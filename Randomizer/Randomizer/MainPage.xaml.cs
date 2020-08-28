@@ -291,6 +291,8 @@ namespace Randomizer
             int columnShow, row;
             int time;
 
+            int tempNumber;
+
             if (global_startFlag && global_cleanFlag)
             {
                 column = global_RandomNumber / 21; // originally 12
@@ -308,7 +310,8 @@ namespace Randomizer
                 {
                     await Task.Run(() => Random_Trick());
 
-                    texblk.Text = global_RandomNumber.ToString();
+                    tempNumber = global_RandomNumber + 1;
+                    texblk.Text = tempNumber.ToString();
                     columnShow = (global_RandomNumber / 21) + 1; // originally 12
                     row = (global_RandomNumber % 21) + 1; // originally 12
                     texCol.Text = columnShow.ToString();
@@ -338,16 +341,16 @@ namespace Randomizer
             //checkbox1.
             if (global_finalGiftFlag)
             {
-                //listExclude.Add(42);
-                //listExclude.Add(43);
-                //listExclude.Add(44);
-                //listExclude.Add(45);
-                //listExclude.Add(46);
-                //listExclude.Add(47);
-                //listExclude.Add(48);
-                //listExclude.Add(49);
-                //listExclude.Add(50);
-                //listExclude.Add(51);
+                listExclude.Add(1);
+                listExclude.Add(4);
+                listExclude.Add(7);
+                listExclude.Add(22);
+                listExclude.Add(25);
+                listExclude.Add(28);
+                listExclude.Add(172);
+                listExclude.Add(175);
+                listExclude.Add(193);
+                listExclude.Add(196);
                 //listExclude.Add(52);
                 //listExclude.Add(53);
                 
@@ -413,6 +416,8 @@ namespace Randomizer
             int column = 0;
             Boolean flag = false;
 
+            int tempNumber;
+
             int columnShow, row;
 
             /*
@@ -458,7 +463,8 @@ namespace Randomizer
             {
                 await Task.Run(() => Random_Trick());
 
-                texblk.Text = global_RandomNumber.ToString();
+                tempNumber = global_RandomNumber + 1;
+                texblk.Text = tempNumber.ToString();
                 columnShow = (global_RandomNumber / 21) + 1; //originally 12
                 row = (global_RandomNumber % 21) + 1; // originally 12
                 texCol.Text = columnShow.ToString();
