@@ -2484,9 +2484,7 @@ namespace __Interop
 					global::System.__ComObject __this, 
 					global::System.RuntimeTypeHandle __typeHnd, 
 					int __targetIndex, 
-					void* arg0, 
-					void* arg1, 
-					void* arg2)
+					global::System.Runtime.InteropServices.HSTRING arg0)
 		{
 			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
 								__this, 
@@ -2496,9 +2494,7 @@ namespace __Interop
 			int __result = global::__Interop.Intrinsics.StdCall__25(
 								__pTarget, 
 								__pThis, 
-								arg0, 
-								arg1, 
-								arg2
+								arg0
 							);
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 			global::System.GC.KeepAlive(__this);
@@ -2516,7 +2512,9 @@ namespace __Interop
 					global::System.__ComObject __this, 
 					global::System.RuntimeTypeHandle __typeHnd, 
 					int __targetIndex, 
-					global::System.Runtime.InteropServices.HSTRING arg0)
+					void* arg0, 
+					void* arg1, 
+					void* arg2)
 		{
 			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
 								__this, 
@@ -2526,7 +2524,9 @@ namespace __Interop
 			int __result = global::__Interop.Intrinsics.StdCall__26(
 								__pTarget, 
 								__pThis, 
-								arg0
+								arg0, 
+								arg1, 
+								arg2
 							);
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 			global::System.GC.KeepAlive(__this);

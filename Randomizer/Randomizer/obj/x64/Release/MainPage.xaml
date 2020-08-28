@@ -32,7 +32,7 @@
         <TextBlock x:ConnectionId='6' x:Name="texCol" HorizontalAlignment="Left" Margin="561,24,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White" Height="53" Width="83"/>
         <TextBlock x:ConnectionId='7' x:Name="texRow" HorizontalAlignment="Left" Margin="759,24,0,0" Text="N/A" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Grid.Row="1" Foreground="White" Height="53" Width="88"/>
         <TextBlock HorizontalAlignment="Left" Margin="194,37,0,0" Text="Seat No." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White" Height="40" Width="112"/>
-        <TextBlock HorizontalAlignment="Left" Margin="445,37,0,0" Text="Column" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White" Height="40" Width="103"/>
+        <TextBlock HorizontalAlignment="Left" Margin="445,37,0,0" Text="Column" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Grid.Row="1" Foreground="White" Height="40" Width="118"/>
         <TextBlock HorizontalAlignment="Left" Margin="683,37,0,0" Text="Row" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="0.366,0.5" Grid.Row="1" Foreground="White" Height="40" Width="67"/>
         <TextBlock x:ConnectionId='8' HorizontalAlignment="Left" Margin="904,144,0,0" Text="Copyright 2019-2020 Youchao Wang, Cambridge" TextWrapping="Wrap" VerticalAlignment="Top" Width="309"                                                 Grid.Row="1" Foreground="White" Height="19"/>
         <Grid Grid.RowSpan="2" Margin="72,0,0,0"/>

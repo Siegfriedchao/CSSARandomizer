@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="a760cd89-3e0c-40d6-9704-52c32e04ee42" Publisher="CN=Siegfriedchao" Version="1.0.4.0" ProcessorArchitecture="x86" />
+  <Identity Name="a760cd89-3e0c-40d6-9704-52c32e04ee42" Publisher="CN=Siegfriedchao" Version="2.0.2.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="a760cd89-3e0c-40d6-9704-52c32e04ee42" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Randomizer</DisplayName>
@@ -38,7 +38,7 @@
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="16.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
-    <build:Item Name="OperatingSystem" Version="10.0.18362.290 (WinBuild.160101.0800)" />
+    <build:Item Name="OperatingSystem" Version="10.0.18362.650 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.28917.181" />
     <build:Item Name="ProjectGUID" Value="{B63830C7-7A98-4CA7-B819-E02C678E734A}" />
     <build:Item Name="ilc.exe" Version="1.7.27420.00 built by: PROJECTNGDR2" />
