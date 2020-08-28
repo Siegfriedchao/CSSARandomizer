@@ -11,22 +11,21 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
-      <RootMethod Name="GetRow" />
-      <RootMethod Name="SetRow" />
       <RootMethod Name="GetRowSpan" />
       <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
+    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="RenderTransformOrigin" />
-      <RootEvent Name="Click" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Fill" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
@@ -36,17 +35,21 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
+      <RootProperty Name="RenderTransformOrigin" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Fill" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="HorizontalAlignment" />

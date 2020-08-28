@@ -32,7 +32,7 @@ namespace Randomizer
         // some globals
         List<int> listExclude = new List<int>();
 
-        Rectangle[] recArray = new Rectangle[120];
+        Rectangle[] recArray = new Rectangle[210];
 
         List<Rectangle> listRec = new List<Rectangle>();
 
@@ -90,11 +90,12 @@ namespace Randomizer
             /*
              * Plotting a list of rectangles representing tables
              */
-            for (var i = 0; i < 120; i++)
+            for (var i = 0; i < 210; i++)
             {
                 // five big columns with 12x2 per each column
                 // changing to six big columns with 10x2
-                if (rowCounter == 9) // originally 11
+                // now changing back to five
+                if (rowCounter == 20) // originally 11
                 {
                     y = 0;
 
@@ -102,12 +103,12 @@ namespace Randomizer
 
                     if (columnCounter % 2 == 0)
                     {
-                        x += 85; // originally 100
+                        x += 100; // originally 100
                         chairBrush = chairLeftBrush;
                     }
                     else
                     {
-                        x += 60; //originally 80
+                        x += 80; //originally 80
                         chairBrush = chairRightBrush;
                     }
 
@@ -115,20 +116,38 @@ namespace Randomizer
                 }
                 else
                 {
+
                     if (!flag)
                     {
                         flag = true;
                     }
                     else
                     {
-                        if (rowCounter % 2 == 0)
+                        if (rowCounter < 10)
                         {
-                            y += 50;
+                            if ((rowCounter + 1) % 3 != 0)
+                            {
+                                y += 28;
+                            }
+                            else
+                            {
+                                y += 35;
+                            }
+                            //rowCounter++;
                         }
                         else
                         {
-                            y += 75;
+                            if ((rowCounter + 1) % 2 == 0)
+                            {
+                                y += 28;
+                            }
+                            else
+                            {
+                                y += 35;
+                            }
+                            //rowCounter++;
                         }
+
                         rowCounter++;
                     }
 
@@ -202,11 +221,11 @@ namespace Randomizer
             /*
              * Plotting a list of rectangles representing tables
              */
-            for (var i = 0; i < 120; i++)
+            for (var i = 0; i < 210; i++)
             {
                 // orginally five big columns with 12x2 per each column
-                // now six columns with 10x2
-                if (rowCounter == 9) // originally 11
+                // now five columns with 21 x 2
+                if (rowCounter == 20) // originally 11
                 {
                     columnCounter++;
 
@@ -270,7 +289,7 @@ namespace Randomizer
 
             if (global_startFlag && global_cleanFlag)
             {
-                column = global_RandomNumber / 10; // originally 12
+                column = global_RandomNumber / 21; // originally 12
                 if (column % 2 == 0)
                 {
                     listRec[global_RandomNumber].Fill = chairLeftBrush;
@@ -286,8 +305,8 @@ namespace Randomizer
                     await Task.Run(() => Random_Trick());
 
                     texblk.Text = global_RandomNumber.ToString();
-                    columnShow = (global_RandomNumber / 10) + 1; // originally 12
-                    row = (global_RandomNumber % 10) + 1; // originally 12
+                    columnShow = (global_RandomNumber / 21) + 1; // originally 12
+                    row = (global_RandomNumber % 21) + 1; // originally 12
                     texCol.Text = columnShow.ToString();
                     texRow.Text = row.ToString();
 
@@ -297,7 +316,7 @@ namespace Randomizer
 
                     await Task.Delay(TimeSpan.FromMilliseconds(time));
 
-                    column = global_RandomNumber / 10; // originally 12
+                    column = global_RandomNumber / 21; // originally 12
                     if (column % 2 == 0)
                     {
                         listRec[global_RandomNumber].Fill = chairLeftBrush;
@@ -341,13 +360,13 @@ namespace Randomizer
 
                 do
                 {
-                    number = Generate_Random(120, listExclude);
+                    number = Generate_Random(210, listExclude);
                 } while (number == global_RandomNumber);
 
                 listRec[number].Fill = yellowBrush;
 
-                columnCount = (number / 10) + 1; // originally 12
-                rowCount = (number % 10) + 1; // originally 12
+                columnCount = (number / 21) + 1; // originally 12
+                rowCount = (number % 21) + 1; // originally 12
 
                 chairCount = number + 1;
 
@@ -395,11 +414,11 @@ namespace Randomizer
             /*
              * Plotting a list of rectangles representing tables
              */
-            for (var i = 0; i < 120; i++)
+            for (var i = 0; i < 210; i++)
             {
                 // originally five big columns with 12x2 per each column
-                // now six big columns with 10x2
-                if (rowCounter == 9)
+                // now five columns with 21 x 2
+                if (rowCounter == 20)
                 {
                     columnCounter++;
 
@@ -436,8 +455,8 @@ namespace Randomizer
                 await Task.Run(() => Random_Trick());
 
                 texblk.Text = global_RandomNumber.ToString();
-                columnShow = (global_RandomNumber / 10) + 1; //originally 12
-                row = (global_RandomNumber % 10) + 1; // originally 12
+                columnShow = (global_RandomNumber / 21) + 1; //originally 12
+                row = (global_RandomNumber % 21) + 1; // originally 12
                 texCol.Text = columnShow.ToString();
                 texRow.Text = row.ToString();
 
@@ -445,7 +464,7 @@ namespace Randomizer
 
                 await Task.Delay(TimeSpan.FromMilliseconds(100));
 
-                column = global_RandomNumber / 10; // originally 12
+                column = global_RandomNumber / 21; // originally 12
                 if (column % 2 == 0)
                 {
                     listRec[global_RandomNumber].Fill = chairLeftBrush;

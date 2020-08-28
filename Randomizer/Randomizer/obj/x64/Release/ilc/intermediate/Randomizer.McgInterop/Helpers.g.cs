@@ -901,9 +901,7 @@ namespace __Interop
 		internal static int StdCall__25(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					void* arg0, 
-					void* arg1, 
-					void* arg2)
+					global::System.Runtime.InteropServices.HSTRING arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -912,7 +910,9 @@ namespace __Interop
 		internal static int StdCall__26(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::System.Runtime.InteropServices.HSTRING arg0)
+					void* arg0, 
+					void* arg1, 
+					void* arg2)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;

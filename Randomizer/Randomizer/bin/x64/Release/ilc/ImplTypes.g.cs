@@ -25469,220 +25469,6 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
-	// Windows.UI.Xaml.Controls.IContentControl
-	public unsafe static class IContentControl__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IContentControl'
-		public static partial class Stubs
-		{
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			public static object get_Content(global::System.__ComObject __this)
-			{
-				object __ret = global::__Interop.ForwardComStubs.Stub_18<global::Windows.UI.Xaml.Controls.IContentControl>(
-									__this, 
-									6
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			public static void put_Content(
-						global::System.__ComObject __this, 
-						object value)
-			{
-				global::__Interop.ForwardComStubs.Stub_29<global::Windows.UI.Xaml.Controls.IContentControl>(
-									__this, 
-									value, 
-									7
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.Controls.IContentControlOverrides
-	public unsafe static class IContentControlOverrides__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IContentControlOverrides'
-		public static partial class Stubs
-		{
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			public static void OnContentChanged(
-						global::System.__ComObject __this, 
-						object oldContent, 
-						object newContent)
-			{
-				global::__Interop.ForwardComStubs.Stub_1<global::Windows.UI.Xaml.Controls.IContentControlOverrides>(
-									__this, 
-									oldContent, 
-									newContent, 
-									6
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			public static void OnContentTemplateChanged(
-						global::System.__ComObject __this, 
-						global::Windows.UI.Xaml.DataTemplate oldContentTemplate, 
-						global::Windows.UI.Xaml.DataTemplate newContentTemplate)
-			{
-				global::__Interop.ForwardComStubs.Stub_12<global::Windows.UI.Xaml.Controls.IContentControlOverrides, global::Windows.UI.Xaml.DataTemplate, global::Windows.UI.Xaml.DataTemplate>(
-									__this, 
-									oldContentTemplate, 
-									newContentTemplate, 
-									7
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			}
-
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			public static void OnContentTemplateSelectorChanged(
-						global::System.__ComObject __this, 
-						global::Windows.UI.Xaml.Controls.DataTemplateSelector oldContentTemplateSelector, 
-						global::Windows.UI.Xaml.Controls.DataTemplateSelector newContentTemplateSelector)
-			{
-				global::__Interop.ForwardComStubs.Stub_12<global::Windows.UI.Xaml.Controls.IContentControlOverrides, global::Windows.UI.Xaml.Controls.DataTemplateSelector, global::Windows.UI.Xaml.Controls.DataTemplateSelector>(
-									__this, 
-									oldContentTemplateSelector, 
-									newContentTemplateSelector, 
-									8
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides
-	public unsafe static class IDataTemplateSelectorOverrides__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides'
-		public static partial class Stubs
-		{
-			// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides.SelectTemplateCore, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTInspectableMarshaller] object____mcg_IInspectable, [fwd] [in] [Mcg.CodeGen.WinRTClassMarshaller] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject *, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTClassMarshaller] Windows_UI_Xaml_DataTemplate__Windows_UI_Xaml__DataTemplate *, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			public static global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(
-						global::System.__ComObject __this, 
-						object item, 
-						global::Windows.UI.Xaml.DependencyObject container)
-			{
-				// Setup
-				void* unsafe_item = default(void*);
-				void* unsafe_container = default(void*);
-				void* unsafe_result__retval = default(void*);
-				global::Windows.UI.Xaml.DataTemplate result__retval = default(global::Windows.UI.Xaml.DataTemplate);
-				int unsafe___hr;
-				try
-				{
-					// Marshalling
-					unsafe_item = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToIInspectable(item);
-					unsafe_container = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
-										container, 
-										typeof(global::Windows.UI.Xaml.DependencyObject).TypeHandle
-									);
-					unsafe_result__retval = null;
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides).TypeHandle, 
-										6, 
-										unsafe_item, 
-										unsafe_container, 
-										&(unsafe_result__retval)
-									);
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					result__retval = (global::Windows.UI.Xaml.DataTemplate)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-										((global::System.IntPtr)unsafe_result__retval), 
-										typeof(global::Windows.UI.Xaml.DataTemplate).TypeHandle
-									);
-					// Return
-					return result__retval;
-				}
-				finally
-				{
-					// Cleanup
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_item)));
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_container)));
-					global::System.GC.KeepAlive(container);
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_result__retval)));
-				}
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2
-	public unsafe static class IDataTemplateSelectorOverrides2__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2'
-		public static partial class Stubs
-		{
-			// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2.SelectTemplateCore, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTInspectableMarshaller] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTClassMarshaller] Windows_UI_Xaml_DataTemplate__Windows_UI_Xaml__DataTemplate *, 
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			public static global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(
-						global::System.__ComObject __this, 
-						object item)
-			{
-				// Setup
-				void* unsafe_item = default(void*);
-				void* unsafe_result__retval = default(void*);
-				global::Windows.UI.Xaml.DataTemplate result__retval = default(global::Windows.UI.Xaml.DataTemplate);
-				int unsafe___hr;
-				try
-				{
-					// Marshalling
-					unsafe_item = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToIInspectable(item);
-					unsafe_result__retval = null;
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2).TypeHandle, 
-										6, 
-										unsafe_item, 
-										&(unsafe_result__retval)
-									);
-					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-					result__retval = (global::Windows.UI.Xaml.DataTemplate)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
-										((global::System.IntPtr)unsafe_result__retval), 
-										typeof(global::Windows.UI.Xaml.DataTemplate).TypeHandle
-									);
-					// Return
-					return result__retval;
-				}
-				finally
-				{
-					// Cleanup
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_item)));
-					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_result__retval)));
-				}
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.Controls.IButtonFactory
-	public unsafe static class IButtonFactory__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IButtonFactory'
-		public static partial class Stubs
-		{
-			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-			public static global::System.IntPtr CreateInstance(
-						global::System.__ComObject __this, 
-						global::System.IntPtr baseInterface, 
-						out global::System.IntPtr innerInterface)
-			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_4<global::Windows.UI.Xaml.Controls.IButtonFactory>(
-									__this, 
-									baseInterface, 
-									out innerInterface, 
-									6
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				return __ret;
-			}
-		}
-	}
-
 	// Windows.UI.Xaml.Controls.ITextBlock
 	public unsafe static class ITextBlock__Impl
 	{
@@ -26015,6 +25801,220 @@ namespace Windows.UI.Xaml.Controls
 									11
 								);
 				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Controls.IContentControl
+	public unsafe static class IContentControl__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IContentControl'
+		public static partial class Stubs
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static object get_Content(global::System.__ComObject __this)
+			{
+				object __ret = global::__Interop.ForwardComStubs.Stub_18<global::Windows.UI.Xaml.Controls.IContentControl>(
+									__this, 
+									6
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void put_Content(
+						global::System.__ComObject __this, 
+						object value)
+			{
+				global::__Interop.ForwardComStubs.Stub_29<global::Windows.UI.Xaml.Controls.IContentControl>(
+									__this, 
+									value, 
+									7
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Controls.IContentControlOverrides
+	public unsafe static class IContentControlOverrides__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IContentControlOverrides'
+		public static partial class Stubs
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void OnContentChanged(
+						global::System.__ComObject __this, 
+						object oldContent, 
+						object newContent)
+			{
+				global::__Interop.ForwardComStubs.Stub_1<global::Windows.UI.Xaml.Controls.IContentControlOverrides>(
+									__this, 
+									oldContent, 
+									newContent, 
+									6
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void OnContentTemplateChanged(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.DataTemplate oldContentTemplate, 
+						global::Windows.UI.Xaml.DataTemplate newContentTemplate)
+			{
+				global::__Interop.ForwardComStubs.Stub_12<global::Windows.UI.Xaml.Controls.IContentControlOverrides, global::Windows.UI.Xaml.DataTemplate, global::Windows.UI.Xaml.DataTemplate>(
+									__this, 
+									oldContentTemplate, 
+									newContentTemplate, 
+									7
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void OnContentTemplateSelectorChanged(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.Controls.DataTemplateSelector oldContentTemplateSelector, 
+						global::Windows.UI.Xaml.Controls.DataTemplateSelector newContentTemplateSelector)
+			{
+				global::__Interop.ForwardComStubs.Stub_12<global::Windows.UI.Xaml.Controls.IContentControlOverrides, global::Windows.UI.Xaml.Controls.DataTemplateSelector, global::Windows.UI.Xaml.Controls.DataTemplateSelector>(
+									__this, 
+									oldContentTemplateSelector, 
+									newContentTemplateSelector, 
+									8
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides
+	public unsafe static class IDataTemplateSelectorOverrides__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides'
+		public static partial class Stubs
+		{
+			// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides.SelectTemplateCore, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTInspectableMarshaller] object____mcg_IInspectable, [fwd] [in] [Mcg.CodeGen.WinRTClassMarshaller] Windows_UI_Xaml_DependencyObject__Windows_UI_Xaml__DependencyObject *, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTClassMarshaller] Windows_UI_Xaml_DataTemplate__Windows_UI_Xaml__DataTemplate *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(
+						global::System.__ComObject __this, 
+						object item, 
+						global::Windows.UI.Xaml.DependencyObject container)
+			{
+				// Setup
+				void* unsafe_item = default(void*);
+				void* unsafe_container = default(void*);
+				void* unsafe_result__retval = default(void*);
+				global::Windows.UI.Xaml.DataTemplate result__retval = default(global::Windows.UI.Xaml.DataTemplate);
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe_item = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToIInspectable(item);
+					unsafe_container = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+										container, 
+										typeof(global::Windows.UI.Xaml.DependencyObject).TypeHandle
+									);
+					unsafe_result__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides).TypeHandle, 
+										6, 
+										unsafe_item, 
+										unsafe_container, 
+										&(unsafe_result__retval)
+									);
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					result__retval = (global::Windows.UI.Xaml.DataTemplate)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+										((global::System.IntPtr)unsafe_result__retval), 
+										typeof(global::Windows.UI.Xaml.DataTemplate).TypeHandle
+									);
+					// Return
+					return result__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_item)));
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_container)));
+					global::System.GC.KeepAlive(container);
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_result__retval)));
+				}
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2
+	public unsafe static class IDataTemplateSelectorOverrides2__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2'
+		public static partial class Stubs
+		{
+			// Signature, Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2.SelectTemplateCore, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTInspectableMarshaller] object____mcg_IInspectable, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTClassMarshaller] Windows_UI_Xaml_DataTemplate__Windows_UI_Xaml__DataTemplate *, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::Windows.UI.Xaml.DataTemplate SelectTemplateCore(
+						global::System.__ComObject __this, 
+						object item)
+			{
+				// Setup
+				void* unsafe_item = default(void*);
+				void* unsafe_result__retval = default(void*);
+				global::Windows.UI.Xaml.DataTemplate result__retval = default(global::Windows.UI.Xaml.DataTemplate);
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					unsafe_item = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToIInspectable(item);
+					unsafe_result__retval = null;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.UI.Xaml.Controls.IDataTemplateSelectorOverrides2).TypeHandle, 
+										6, 
+										unsafe_item, 
+										&(unsafe_result__retval)
+									);
+					global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+					result__retval = (global::Windows.UI.Xaml.DataTemplate)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
+										((global::System.IntPtr)unsafe_result__retval), 
+										typeof(global::Windows.UI.Xaml.DataTemplate).TypeHandle
+									);
+					// Return
+					return result__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_item)));
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_result__retval)));
+				}
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Controls.IButtonFactory
+	public unsafe static class IButtonFactory__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IButtonFactory'
+		public static partial class Stubs
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static global::System.IntPtr CreateInstance(
+						global::System.__ComObject __this, 
+						global::System.IntPtr baseInterface, 
+						out global::System.IntPtr innerInterface)
+			{
+				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_4<global::Windows.UI.Xaml.Controls.IButtonFactory>(
+									__this, 
+									baseInterface, 
+									out innerInterface, 
+									6
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				return __ret;
 			}
 		}
 	}
