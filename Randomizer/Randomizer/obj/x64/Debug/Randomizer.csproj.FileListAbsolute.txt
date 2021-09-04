@@ -215,3 +215,4 @@ E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Debug\qualifiers.txt
 E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Debug\qualifiers.txt.intermediate
 E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Debug\ProjectArchitectures.txt
+E:\GitHub\CSSARandomizer\Randomizer\Randomizer\obj\x64\Debug\Randomizer.csprojAssemblyReference.cache
